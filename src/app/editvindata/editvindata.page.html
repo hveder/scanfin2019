@@ -38,7 +38,32 @@
             ANZEIGE_EZ is required.
           </mat-error>
         </mat-form-field>
-
+        <mat-accordion>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <ion-label>Sonderausstattungen</ion-label>
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <ul>
+              <li *ngFor="let control of vinDataForm.controls['VINSONDERAUSSTATTUNGEN'].controls; let i=index" >
+                <mat-checkbox [formControl]="control"  >{{ vinData.VINSONDERAUSSTATTUNGEN[i] }}</mat-checkbox>
+              </li>
+            </ul>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <ion-label>Serienausstattungen</ion-label>
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <ul>
+              <li *ngFor="let control of vinDataForm.controls['VINAUSSTATTUNGEN'].controls; let i=index" >
+                <mat-checkbox [formControl]="control"  >{{ vinData.VINAUSSTATTUNGEN[i] }}</mat-checkbox>
+              </li>
+            </ul>
+          </mat-expansion-panel>
+        </mat-accordion>
 
         <div>
           <button mat-raised-button color="warn" class="f" style="width:100%"  type="submit">Daten Senden</button>

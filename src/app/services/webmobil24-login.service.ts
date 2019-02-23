@@ -42,7 +42,7 @@ export class Webmobil24LoginService {
                 resolve(res);
               },
               msg => {
-                  console.log(msg);
+                  this.token = msg;
                 // Error
                               reject(msg);
               }

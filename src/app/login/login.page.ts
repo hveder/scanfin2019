@@ -16,7 +16,7 @@ export class LoginPage  implements OnInit {
   constructor( private wm24Login: Webmobil24LoginService,  public router: Router, public route: ActivatedRoute) {
 
   }
-
+  msg: string = "";
   wm24_credentials: any;
   credentials = {username: '', password: ''};
   username  =  'hendrikveder';
@@ -39,7 +39,13 @@ export class LoginPage  implements OnInit {
 
 
   async sendCredentials(credentials) {
-     await this.wm24Login.callfnWm24Login(credentials.username, credentials.password).then();
+     await this.wm24Login.callfnWm24Login(credentials.username, credentials.password).then(
+         (res)=>{},
+         (msg)=>{
+           this.msg = this.wm24Login.token;
+         }
+
+     );
     this.redirect();
 
   }
@@ -53,7 +59,7 @@ export class LoginPage  implements OnInit {
       return null;
 
     }, (msg) => {
-      console.log(msg);
+
       return false;
 
     });
