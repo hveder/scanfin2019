@@ -12,7 +12,7 @@ import {Camera} from '@ionic-native/camera/ngx';
 import {WebView} from '@ionic-native/ionic-webview/ngx';
 import {Storage} from '@ionic/storage';
 import {File} from '@ionic-native/file/ngx';
-import { TakevehiclephotosPage } './takevehiclephotos.page';
+import { TakevehiclephotosPage } from './takevehiclephotos.page';
 
 @NgModule({
   imports: [
