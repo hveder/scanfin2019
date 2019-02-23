@@ -18,15 +18,6 @@ npm-debug.log*
 .sass-cache/
 .tmp/
 .versions/
-coverage/
-www/
-node_modules/
-tmp/
-temp/
-platforms/
-plugins/
-plugins/android.json
-plugins/ios.json
 $RECYCLE.BIN/
 
 .DS_Store
