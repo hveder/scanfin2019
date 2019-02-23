@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form   (ngSubmit)="sendCredentials(credentials)">
+    <mat-card>
+      <mat-card-content>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Benutzername</mat-label>
+          <input matInput name="username" id="username" value="hendrikveder"  (change)="loginChanged($event)" (blur)="loginChanged($event)"/>
+          <mat-hint>Benutzername</mat-hint>
+          <!--<mat-error *ngIf="ANZEIGE_FAHRGESTELLNUMMER.hasError('required')">
+              VIN is required.
+          </mat-error>-->
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Passwort</mat-label>
+          <input matInput  name="password"  id="password" value="HTYKOq7R"  type="password" (change)="loginChanged($event)" (blur)="loginChanged($event)" />
+          <mat-hint>Passwort</mat-hint>
+          <!--<mat-error *ngIf="ANZEIGE_FAHRGESTELLNUMMER.hasError('required')">
+              VIN is required.
+          </mat-error>-->
+        </mat-form-field>
+
+        <div>
+          <button mat-raised-button style="width:100%" color="warn" type="submit">Login</button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+  </form>
+
+</ion-content>

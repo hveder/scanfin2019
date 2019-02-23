@@ -1,0 +1,68 @@
+{
+  "/spin360/auth_dealer.php": {
+    "target": "https://tools.webmobil24.com/spin360/auth_dealer.php",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/vinpd/dev/detect": {
+    "target": "https://apitest.ico-international.de/vinpd/detect",
+    "secure": false,
+    "pathRewrite": {
+      "^/vinpd/dev/detect": ""
+    },
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/externewindows/tokens/tokens.php": {
+    "target": "https://www.webmobil24.com/externewindows/tokens/tokens.php",
+    "changeOrigin": true,
+    "secure": false,
+    "pathRewrite": {
+      "^/externewindows/tokens/tokens.php": ""
+    },
+    "logLevel": "debug"
+  },
+  "/v_romoto_app/webservice/": {
+    "target": "https://api.romoto.de/v_romoto_app/webservice/?",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/web/de/secure/start/index.php": {
+    "target": "https://secure.webmobil24.com/web/de/secure/start/index.php",
+    "changeOrigin": true,
+    "secure": false,
+    "pathRewrite": {
+      "^/web/de/secure/start/index.php": ""
+    },
+    "logLevel": "debug"
+  },
+  "/scanfin/auth_dealer.php": {
+    "target": "https://tools.webmobil24.com/scanfin/auth_dealer.php",
+    "changeOrigin": true,
+    "secure": false,
+    "pathRewrite": {
+      "^/scanfin/auth_dealer.php": ""
+    },
+    "logLevel": "debug"
+  },
+  "/scanfin/create_ad.php": {
+    "target": "https://tools.webmobil24.com/scanfin/create_ad.php",
+    "changeOrigin": true,
+    "secure": false,
+    "pathRewrite": {
+      "^/scanfin/create_ad.php": ""
+  },
+  "logLevel": "debug"
+  },
+    "/scanfin/bilder_upload.php": {
+      "target": "https://tools.webmobil24.com/scanfin/bilder_upload.php",
+      "changeOrigin": true,
+      "secure": false,
+      "pathRewrite": {
+        "^/scanfin/bilder_upload.php": ""
+      },
+    "logLevel": "debug"
+  }
+}

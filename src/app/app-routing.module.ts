@@ -14,6 +14,18 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
+  },
+  {
+    path: 'login',
+    loadChildren: './login/login.module#LoginPageModule'
+  },
+  {
+    path: 'takevinphotos',
+    loadChildren: './takevinphotos/takevinphotos.module#TakevinphotosPageModule'
+  },
+  {
+    path: 'editvindata',
+    loadChildren: './editvindata/editvindata.module#EditvindataPageModule'
   }
 ];
 

@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      {{vinData.DAT_NAME_MARKE}}
+      {{vinData.DAT_NAME_MODELL_D}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <mat-card>
+    <mat-card-content>
+      <form class="example-form"  (ngSubmit)="test()" [formGroup]="vinDataForm" novalidate>
+        <mat-form-field class="example-full-width">
+          <mat-label>Fahrgestellnummer</mat-label>
+          <input matInput placeholder="VIN" [formControl]="ANZEIGE_FAHRGESTELLNUMMER"  >
+          <mat-hint>VIN</mat-hint>
+          <mat-error *ngIf="ANZEIGE_FAHRGESTELLNUMMER.hasError('required')">
+            VIN is required.
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Kilometerstand</mat-label>
+          <input matInput placeholder="Kilometerstand" [formControl]="ANZEIGE_KMSTAND"    >
+          <mat-hint>KMSTAND</mat-hint>
+          <mat-error *ngIf="ANZEIGE_KMSTAND.hasError('required')">
+            KMSTAND is required.
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>VIN</mat-label>
+          <input matInput placeholder="Erstzulassung" [formControl]="ANZEIGE_EZ"    >
+          <mat-hint>EZ</mat-hint>
+          <mat-error *ngIf="ANZEIGE_EZ.hasError('required')">
+            ANZEIGE_EZ is required.
+          </mat-error>
+        </mat-form-field>
+
+
+        <div>
+          <button mat-raised-button color="warn" class="f" style="width:100%"  type="submit">Daten Senden</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</ion-content>
+<router-outlet></router-outlet>

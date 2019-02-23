@@ -1,13 +1,28 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
-
+import { IonicStorageModule } from '@ionic/storage';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
-
+import { Webmobil24LoginService } from './services/webmobil24-login.service';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {
+  MatInputModule,
+      MatPaginatorModule,
+      MatProgressSpinnerModule,
+      MatSortModule,
+      MatTableModule,
+      MatIconModule,
+      MatButtonModule,
+      MatCardModule,
+      MatFormFieldModule } from "@angular/material";
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HttpConfigInterceptor } from './interceptor/httpconfig.interceptor';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,11 +30,28 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    AppRoutingModule
+      IonicStorageModule.forRoot(),
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatPaginatorModule,
+      HttpClientModule,
+    MatProgressSpinnerModule,
+    MatSortModule,
+    MatTableModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatFormFieldModule,
+    DragDropModule,
+    ScrollingModule
+
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    Webmobil24LoginService,
+      { provide: HTTP_INTERCEPTORS, useClass: HttpConfigInterceptor, multi: true },
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
