@@ -25,7 +25,7 @@ const STORAGE_KEY = 'my_images';
 })
 export class TakevinphotosPage implements OnInit {
 
-
+   myValue:string = '';
   images = [];
 
   constructor(private camera: Camera, private file: File, private http: HttpClient, private webview: WebView,
@@ -53,6 +53,7 @@ this.camera.getPicture(options).then((imageData) => {
  // imageData is either a base64 encoded string or a file URI
  // If it's base64 (DATA_URL):
  const base64Image = imageData;
+    that.myValue = imageData;
   that.awsOcRServiceService.callfnDetectVin(base64Image).then((res) => {
     console.log('Data');
   }, (msg => {

@@ -32,8 +32,8 @@ export class LoginPage  implements OnInit {
   ngOnInit() {
 
     // this.redirect();
-    this.credentials.username = 'hendrikveder';
-    this.credentials.password = 'HTYKOq7R';
+    this.credentials.username = '';
+    this.credentials.password = '';
   }
 
 

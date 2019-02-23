@@ -36,7 +36,6 @@ export class Webmobil24LoginService {
           .then(
 
               (res: Webmobil24Credentials) => {
-                  console.log(res);
                 this.credentials = res;
                 tm.store_wm24_login_datas(res);
                 resolve(res);
