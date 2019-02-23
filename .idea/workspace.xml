@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b5e2d4f-852b-4afa-866c-28643418771d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -37,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -46,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/global.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -227,7 +226,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550870518168</updated>
       <workItem from="1550870519277" duration="11027000" />
-      <workItem from="1550883964424" duration="6323000" />
+      <workItem from="1550883964424" duration="6448000" />
     </task>
     <task id="LOCAL-00001" summary="Iniut">
       <created>1550927416512</created>
@@ -240,7 +239,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17350000" />
+    <option name="totallyTimeSpent" value="17475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="0" />
@@ -586,14 +585,14 @@
     <entry file="file://$PROJECT_DIR$/src/global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
