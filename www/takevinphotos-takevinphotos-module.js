@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["takevinphotos-takevinphotos-module"],{
 
-/***/ "./node_modules/@ionic-native/Camera/ngx/index.js":
+/***/ "./node_modules/@ionic-native/camera/ngx/index.js":
 /*!********************************************************!*\
-  !*** ./node_modules/@ionic-native/Camera/ngx/index.js ***!
+  !*** ./node_modules/@ionic-native/camera/ngx/index.js ***!
   \********************************************************/
 /*! exports provided: DestinationType, EncodingType, MediaType, PictureSourceType, PopoverArrowDirection, Direction, Camera */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -161,9 +161,65 @@ var Camera = /** @class */ (function (_super) {
 
 /***/ }),
 
-/***/ "./node_modules/@ionic-native/File/ngx/index.js":
+/***/ "./node_modules/@ionic-native/file-path/ngx/index.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@ionic-native/file-path/ngx/index.js ***!
+  \***********************************************************/
+/*! exports provided: FilePath */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FilePath", function() { return FilePath; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _ionic_native_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ionic-native/core */ "./node_modules/@ionic-native/core/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var FilePath = /** @class */ (function (_super) {
+    __extends(FilePath, _super);
+    function FilePath() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    FilePath.prototype.resolveNativePath = function (path) { return Object(_ionic_native_core__WEBPACK_IMPORTED_MODULE_1__["cordova"])(this, "resolveNativePath", {}, arguments); };
+    FilePath.pluginName = "FilePath";
+    FilePath.plugin = "cordova-plugin-filepath";
+    FilePath.pluginRef = "window.FilePath";
+    FilePath.repo = "https://github.com/hiddentao/cordova-plugin-filepath";
+    FilePath.platforms = ["Android"];
+    FilePath = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        })
+    ], FilePath);
+    return FilePath;
+}(_ionic_native_core__WEBPACK_IMPORTED_MODULE_1__["IonicNativePlugin"]));
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9zcmMvQGlvbmljLW5hdGl2ZS9wbHVnaW5zL2ZpbGUtcGF0aC9uZ3gvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLE9BQU8sRUFBRSxVQUFVLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDM0MsT0FBTyw4QkFBc0MsTUFBTSxvQkFBb0IsQ0FBQzs7SUFrQzFDLDRCQUFpQjs7OztJQU83QyxvQ0FBaUIsYUFBQyxJQUFZOzs7Ozs7SUFQbkIsUUFBUTtRQUhwQixVQUFVLENBQUM7WUFDVixVQUFVLEVBQUUsTUFBTTtTQUNuQixDQUFDO09BQ1csUUFBUTttQkFuQ3JCO0VBbUM4QixpQkFBaUI7U0FBbEMsUUFBUSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvcmRvdmEsIElvbmljTmF0aXZlUGx1Z2luLCBQbHVnaW4gfSBmcm9tICdAaW9uaWMtbmF0aXZlL2NvcmUnO1xuXG5kZWNsYXJlIGNvbnN0IHdpbmRvdzogYW55O1xuXG4vKipcbiAqIEBuYW1lIEZpbGUgUGF0aFxuICogQGRlc2NyaXB0aW9uXG4gKlxuICogVGhpcyBwbHVnaW4gYWxsb3dzIHlvdSB0byByZXNvbHZlIHRoZSBuYXRpdmUgZmlsZXN5c3RlbSBwYXRoIGZvciBBbmRyb2lkIGNvbnRlbnQgVVJJcyBhbmQgaXMgYmFzZWQgb24gY29kZSBpbiB0aGUgYUZpbGVDaG9vc2VyIGxpYnJhcnkuXG4gKlxuICogQHVzYWdlXG4gKiBgYGB0eXBlc2NyaXB0XG4gKiBpbXBvcnQgeyBGaWxlUGF0aCB9IGZyb20gJ0Bpb25pYy1uYXRpdmUvZmlsZS1wYXRoL25neCc7XG4gKlxuICogY29uc3RydWN0b3IocHJpdmF0ZSBmaWxlUGF0aDogRmlsZVBhdGgpIHsgfVxuICpcbiAqIC4uLlxuICpcbiAqIHRoaXMuZmlsZVBhdGgucmVzb2x2ZU5hdGl2ZVBhdGgocGF0aClcbiAqICAgLnRoZW4oZmlsZVBhdGggPT4gY29uc29sZS5sb2coZmlsZVBhdGgpKVxuICogICAuY2F0Y2goZXJyID0+IGNvbnNvbGUubG9nKGVycikpO1xuICpcbiAqIGBgYFxuICovXG5AUGx1Z2luKHtcbiAgcGx1Z2luTmFtZTogJ0ZpbGVQYXRoJyxcbiAgcGx1Z2luOiAnY29yZG92YS1wbHVnaW4tZmlsZXBhdGgnLFxuICBwbHVnaW5SZWY6ICd3aW5kb3cuRmlsZVBhdGgnLFxuICByZXBvOiAnaHR0cHM6Ly9naXRodWIuY29tL2hpZGRlbnRhby9jb3Jkb3ZhLXBsdWdpbi1maWxlcGF0aCcsXG4gIHBsYXRmb3JtczogWydBbmRyb2lkJ11cbn0pXG5ASW5qZWN0YWJsZSh7XG4gIHByb3ZpZGVkSW46ICdyb290J1xufSlcbmV4cG9ydCBjbGFzcyBGaWxlUGF0aCBleHRlbmRzIElvbmljTmF0aXZlUGx1Z2luIHtcbiAgLyoqXG4gICAqIFJlc29sdmUgbmF0aXZlIHBhdGggZm9yIGdpdmVuIGNvbnRlbnQgVVJML3BhdGguXG4gICAqIEBwYXJhbSB7c3RyaW5nfSBwYXRoICBDb250ZW50IFVSTC9wYXRoLlxuICAgKiBAcmV0dXJucyB7UHJvbWlzZTxzdHJpbmc+fVxuICAgKi9cbiAgQENvcmRvdmEoKVxuICByZXNvbHZlTmF0aXZlUGF0aChwYXRoOiBzdHJpbmcpOiBQcm9taXNlPHN0cmluZz4ge1xuICAgIHJldHVybjtcbiAgfVxufVxuIl19
+
+/***/ }),
+
+/***/ "./node_modules/@ionic-native/file/ngx/index.js":
 /*!******************************************************!*\
-  !*** ./node_modules/@ionic-native/File/ngx/index.js ***!
+  !*** ./node_modules/@ionic-native/file/ngx/index.js ***!
   \******************************************************/
 /*! exports provided: File */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -897,62 +953,6 @@ var File = /** @class */ (function (_super) {
 
 /***/ }),
 
-/***/ "./node_modules/@ionic-native/file-path/ngx/index.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/@ionic-native/file-path/ngx/index.js ***!
-  \***********************************************************/
-/*! exports provided: FilePath */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FilePath", function() { return FilePath; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _ionic_native_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ionic-native/core */ "./node_modules/@ionic-native/core/index.js");
-var __extends = (undefined && undefined.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-var FilePath = /** @class */ (function (_super) {
-    __extends(FilePath, _super);
-    function FilePath() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    FilePath.prototype.resolveNativePath = function (path) { return Object(_ionic_native_core__WEBPACK_IMPORTED_MODULE_1__["cordova"])(this, "resolveNativePath", {}, arguments); };
-    FilePath.pluginName = "FilePath";
-    FilePath.plugin = "cordova-plugin-filepath";
-    FilePath.pluginRef = "window.FilePath";
-    FilePath.repo = "https://github.com/hiddentao/cordova-plugin-filepath";
-    FilePath.platforms = ["Android"];
-    FilePath = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
-            providedIn: 'root'
-        })
-    ], FilePath);
-    return FilePath;
-}(_ionic_native_core__WEBPACK_IMPORTED_MODULE_1__["IonicNativePlugin"]));
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9zcmMvQGlvbmljLW5hdGl2ZS9wbHVnaW5zL2ZpbGUtcGF0aC9uZ3gvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLE9BQU8sRUFBRSxVQUFVLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDM0MsT0FBTyw4QkFBc0MsTUFBTSxvQkFBb0IsQ0FBQzs7SUFrQzFDLDRCQUFpQjs7OztJQU83QyxvQ0FBaUIsYUFBQyxJQUFZOzs7Ozs7SUFQbkIsUUFBUTtRQUhwQixVQUFVLENBQUM7WUFDVixVQUFVLEVBQUUsTUFBTTtTQUNuQixDQUFDO09BQ1csUUFBUTttQkFuQ3JCO0VBbUM4QixpQkFBaUI7U0FBbEMsUUFBUSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvcmRvdmEsIElvbmljTmF0aXZlUGx1Z2luLCBQbHVnaW4gfSBmcm9tICdAaW9uaWMtbmF0aXZlL2NvcmUnO1xuXG5kZWNsYXJlIGNvbnN0IHdpbmRvdzogYW55O1xuXG4vKipcbiAqIEBuYW1lIEZpbGUgUGF0aFxuICogQGRlc2NyaXB0aW9uXG4gKlxuICogVGhpcyBwbHVnaW4gYWxsb3dzIHlvdSB0byByZXNvbHZlIHRoZSBuYXRpdmUgZmlsZXN5c3RlbSBwYXRoIGZvciBBbmRyb2lkIGNvbnRlbnQgVVJJcyBhbmQgaXMgYmFzZWQgb24gY29kZSBpbiB0aGUgYUZpbGVDaG9vc2VyIGxpYnJhcnkuXG4gKlxuICogQHVzYWdlXG4gKiBgYGB0eXBlc2NyaXB0XG4gKiBpbXBvcnQgeyBGaWxlUGF0aCB9IGZyb20gJ0Bpb25pYy1uYXRpdmUvZmlsZS1wYXRoL25neCc7XG4gKlxuICogY29uc3RydWN0b3IocHJpdmF0ZSBmaWxlUGF0aDogRmlsZVBhdGgpIHsgfVxuICpcbiAqIC4uLlxuICpcbiAqIHRoaXMuZmlsZVBhdGgucmVzb2x2ZU5hdGl2ZVBhdGgocGF0aClcbiAqICAgLnRoZW4oZmlsZVBhdGggPT4gY29uc29sZS5sb2coZmlsZVBhdGgpKVxuICogICAuY2F0Y2goZXJyID0+IGNvbnNvbGUubG9nKGVycikpO1xuICpcbiAqIGBgYFxuICovXG5AUGx1Z2luKHtcbiAgcGx1Z2luTmFtZTogJ0ZpbGVQYXRoJyxcbiAgcGx1Z2luOiAnY29yZG92YS1wbHVnaW4tZmlsZXBhdGgnLFxuICBwbHVnaW5SZWY6ICd3aW5kb3cuRmlsZVBhdGgnLFxuICByZXBvOiAnaHR0cHM6Ly9naXRodWIuY29tL2hpZGRlbnRhby9jb3Jkb3ZhLXBsdWdpbi1maWxlcGF0aCcsXG4gIHBsYXRmb3JtczogWydBbmRyb2lkJ11cbn0pXG5ASW5qZWN0YWJsZSh7XG4gIHByb3ZpZGVkSW46ICdyb290J1xufSlcbmV4cG9ydCBjbGFzcyBGaWxlUGF0aCBleHRlbmRzIElvbmljTmF0aXZlUGx1Z2luIHtcbiAgLyoqXG4gICAqIFJlc29sdmUgbmF0aXZlIHBhdGggZm9yIGdpdmVuIGNvbnRlbnQgVVJML3BhdGguXG4gICAqIEBwYXJhbSB7c3RyaW5nfSBwYXRoICBDb250ZW50IFVSTC9wYXRoLlxuICAgKiBAcmV0dXJucyB7UHJvbWlzZTxzdHJpbmc+fVxuICAgKi9cbiAgQENvcmRvdmEoKVxuICByZXNvbHZlTmF0aXZlUGF0aChwYXRoOiBzdHJpbmcpOiBQcm9taXNlPHN0cmluZz4ge1xuICAgIHJldHVybjtcbiAgfVxufVxuIl19
-
-/***/ }),
-
 /***/ "./node_modules/@ionic-native/ionic-webview/ngx/index.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@ionic-native/ionic-webview/ngx/index.js ***!
@@ -1194,12 +1194,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TakevinphotosPage", function() { return TakevinphotosPage; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _ionic_native_Camera_ngx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic-native/Camera/ngx */ "./node_modules/@ionic-native/Camera/ngx/index.js");
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
-/* harmony import */ var _ionic_native_File_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic-native/File/ngx */ "./node_modules/@ionic-native/File/ngx/index.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic-native/ionic-webview/ngx */ "./node_modules/@ionic-native/ionic-webview/ngx/index.js");
-/* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic/storage */ "./node_modules/@ionic/storage/fesm5/ionic-storage.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic-native/camera/ngx */ "./node_modules/@ionic-native/camera/ngx/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ionic-native/file/ngx */ "./node_modules/@ionic-native/file/ngx/index.js");
+/* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/storage */ "./node_modules/@ionic/storage/fesm5/ionic-storage.js");
+/* harmony import */ var _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic-native/ionic-webview/ngx */ "./node_modules/@ionic-native/ionic-webview/ngx/index.js");
 /* harmony import */ var _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic-native/file-path/ngx */ "./node_modules/@ionic-native/file-path/ngx/index.js");
 /* harmony import */ var _services_aws_oc_rservice_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../services/aws-oc-rservice.service */ "./src/app/services/aws-oc-rservice.service.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
@@ -1262,9 +1262,9 @@ var TakevinphotosPage = /** @class */ (function () {
             template: __webpack_require__(/*! ./takevinphotos.page.html */ "./src/app/takevinphotos/takevinphotos.page.html"),
             styles: [__webpack_require__(/*! ./takevinphotos.page.scss */ "./src/app/takevinphotos/takevinphotos.page.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_native_Camera_ngx__WEBPACK_IMPORTED_MODULE_2__["Camera"], _ionic_native_File_ngx__WEBPACK_IMPORTED_MODULE_4__["File"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClient"], _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_6__["WebView"],
-            _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["ActionSheetController"], _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["ToastController"],
-            _ionic_storage__WEBPACK_IMPORTED_MODULE_7__["Storage"], _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["Platform"], _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["LoadingController"],
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_3__["Camera"], _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_5__["File"], _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"], _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_7__["WebView"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ActionSheetController"], _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ToastController"],
+            _ionic_storage__WEBPACK_IMPORTED_MODULE_6__["Storage"], _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["Platform"], _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"],
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_8__["FilePath"],
             _services_aws_oc_rservice_service__WEBPACK_IMPORTED_MODULE_9__["AwsOcRServiceService"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ActivatedRoute"]])
     ], TakevinphotosPage);

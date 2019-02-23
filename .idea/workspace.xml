@@ -3,7 +3,398 @@
   <component name="ChangeListManager">
     <list default="true" id="6b5e2d4f-852b-4afa-866c-28643418771d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICO-International.keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CoreAndroid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/LOG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemExposedJsApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/cordova.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/android_sdk_version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/check_reqs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/check_reqs.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/clean" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/clean.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/defaults.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/android_sdk_version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/appinfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/check_reqs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/device.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/emulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/plugin-build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/retry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/run.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/spawn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/log.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/lib/nopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/scenarios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.documentup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/bin/shjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/make.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/scripts/generate-docs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/scripts/run-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/chmod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/echo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/find.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/grep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/ls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mkdir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/popd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pushd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pwd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/rm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/sed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/tempdir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/to.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/toEnd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/which.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/bin/which" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/which.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/cordova/version.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/plugin/android/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/src/io/ionic/starter/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDV.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailability.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVConfigParser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVConfigParser.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVDebug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVHandleOpenURL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVHandleOpenURL.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON_private.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVTimer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVTimer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Classes/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Classes/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Classes/MainViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Classes/MainViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Classes/MainViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/MyApp-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/MyApp-Prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Plugins/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon-small@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/icons/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-568h@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-667h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-Landscape-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-Landscape@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-Landscape~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-Portrait@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default-Portrait~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/Resources/splash/Default~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/MyApp/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/apple_ios_version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/apple_osx_version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/apple_xcode_version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-extras.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/check_reqs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/check_reqs.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/clean" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/clean.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/defaults.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/check_reqs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/copy-www-build-step.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-started-emulators" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/run.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/spawn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/start-emulator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/glob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/inflight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inflight/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/inherits/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/minimatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-comparison.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/cases.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/dollar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/empty-option.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/generate.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/negative-increment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/nested.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/pad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/same-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/minimatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/node_modules/wrappy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/node_modules/wrappy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/node_modules/wrappy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/once.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/once/test/once.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/path-is-absolute/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/path-is-absolute/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/path-is-absolute/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/node_modules/path-is-absolute/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/glob/sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/lib/nopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/node_modules/abbrev/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/node_modules/abbrev/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/shelljs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/shelljs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/shelljs/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/version.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/cordova.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/editvindata-editvindata-module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/editvindata-editvindata-module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/styles.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/takevinphotos-takevinphotos-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/takevinphotos-takevinphotos-module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/takevinphotos-takevinphotos-module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/takevinphotos-takevinphotos-module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor.js.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,40 +407,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state>
+              <caret selection-end-line="14" selection-end-column="55" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevinphotos.page.ts">
+        <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.page.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="82" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.page.ts">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="55" />
+            <state relative-caret-position="512">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -68,6 +468,7 @@
       <find>apk</find>
       <find>errorDialogService</find>
       <find>sass</find>
+      <find>cordova-android</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/platforms</dir>
@@ -92,7 +493,6 @@
         <option value="$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.page.html" />
         <option value="$PROJECT_DIR$/src/app/editvindata/editvindata.module.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/app/editvindata/editvindata.page.ts" />
         <option value="$PROJECT_DIR$/src/app/impressum/home.page.ts" />
         <option value="$PROJECT_DIR$/src/app/impressum/home.module.ts" />
         <option value="$PROJECT_DIR$/src/app/impressum/impressum.module.ts" />
@@ -106,13 +506,21 @@
         <option value="$PROJECT_DIR$/src/app/impressum/impressum.page.ts" />
         <option value="$PROJECT_DIR$/src/app/interceptor/httpconfig.interceptor.ts" />
         <option value="$PROJECT_DIR$/src/app/editvindata/editvindata.page.html" />
-        <option value="$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.module.ts" />
         <option value="$PROJECT_DIR$/src/global.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/app/takevehiclephotos/takevinphotos.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/takevehiclephotos/takevinphotos.module.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/editvindata/editvindata.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.page.html" />
+        <option value="$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.page.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.scss" />
+        <option value="$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.page.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -145,6 +553,13 @@
               <item name="ScanFinApp2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScanFinApp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScanFinApp2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="editvindata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScanFinApp2" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +647,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550870518168</updated>
       <workItem from="1550870519277" duration="11027000" />
-      <workItem from="1550883964424" duration="10547000" />
+      <workItem from="1550883964424" duration="16727000" />
     </task>
     <task id="LOCAL-00001" summary="Iniut">
       <created>1550927416512</created>
@@ -245,7 +660,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21574000" />
+    <option name="totallyTimeSpent" value="27754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="0" />
@@ -305,20 +720,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Iniut" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tsconfig.app.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../RomotoVinApp/src/app/tab0/subpage1/subpage1.page.html" />
-    <entry file="file://$PROJECT_DIR$/../RomotoVinApp/src/app/tab0/subpage1/subpage1.page.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/services/rmt-web-service.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/services/aws-oc-rservice.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../RomotoVinApp/src/app/tab0/subpage1/subpage1.module.ts" />
     <entry file="file://$PROJECT_DIR$/../ScanFinWithoutTabs/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -397,16 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/editvindata/editvindata.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,16 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/editvindata/editvindata.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/editvindata/editvindata.page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -545,13 +926,6 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -584,39 +958,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore.swn">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevinphotos.page.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevinphotos.page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -624,10 +965,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@ionic-native/file-path/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/editvindata/editvindata.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/editvindata/editvindata.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.page.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/takevinphotos/takevinphotos.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/takevehiclephotos/takevehiclephotos.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="512">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
         </state>
       </provider>
     </entry>
