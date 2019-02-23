@@ -1113,47 +1113,6 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/error/errordialog.service.ts":
-/*!**********************************************!*\
-  !*** ./src/app/error/errordialog.service.ts ***!
-  \**********************************************/
-/*! exports provided: ErrorDialogService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorDialogService", function() { return ErrorDialogService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-//import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
-//import { ErrorDialogComponent } from './errordialog.component';
-var ErrorDialogService = /** @class */ (function () {
-    function ErrorDialogService() {
-    }
-    ErrorDialogService.prototype.openDialog = function (data) {
-        /*const dialogRef = this.dialog.open(ErrorDialogComponent, {
-            width: '300px',
-            data: data
-        });*/
-        /*dialogRef.afterClosed().subscribe(result => {
-            console.log('The dialog was closed');
-            let animal;
-            animal = result;
-        });*/
-    };
-    ErrorDialogService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], ErrorDialogService);
-    return ErrorDialogService;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/interceptor/httpconfig.interceptor.ts":
 /*!*******************************************************!*\
   !*** ./src/app/interceptor/httpconfig.interceptor.ts ***!
@@ -1166,22 +1125,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpConfigInterceptor", function() { return HttpConfigInterceptor; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _error_errordialog_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../error/errordialog.service */ "./src/app/error/errordialog.service.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 
 
 
 
 
 var HttpConfigInterceptor = /** @class */ (function () {
-    function HttpConfigInterceptor(errorDialogService) {
-        this.errorDialogService = errorDialogService;
+    function HttpConfigInterceptor() {
     }
     HttpConfigInterceptor.prototype.intercept = function (request, next) {
-        var _this = this;
         if (request.url.indexOf('/web/de/secure/start') !== -1) {
             request = request.clone({ headers: request.headers.set('Content-Type', 'application/json')
                     .set('Accept', 'text/html')
@@ -1202,25 +1157,26 @@ var HttpConfigInterceptor = /** @class */ (function () {
                     .set('x-api-key', 'EvuHxr7P9F1AR9kAKBrow1p44Gpab65p2jXgeqIK'),
                 params: request.params });
         }
-        return next.handle(request).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (event) {
-            if (event instanceof _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpResponse"]) {
+        return next.handle(request).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (event) {
+            if (event instanceof _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpResponse"]) {
                 // console.log('event--->>>', event);
                 // this.errorDialogService.openDialog(event);
             }
             return event;
-        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["catchError"])(function (error) {
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (error) {
             var data = {};
-            data = {
-                reason: error && error.error.reason ? error.error.reason : '',
-                status: error.status
-            };
-            _this.errorDialogService.openDialog(data);
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["throwError"])(error);
+            /* data = {
+                 reason: error && error.error.reason ? error.error.reason : '',
+                 status: error.status
+             }*/
+            console.log(error);
+            //this.errorDialogService.openDialog(data);
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["throwError"])(error);
         }));
     };
     HttpConfigInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_error_errordialog_service__WEBPACK_IMPORTED_MODULE_2__["ErrorDialogService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], HttpConfigInterceptor);
     return HttpConfigInterceptor;
 }());
@@ -1273,10 +1229,12 @@ var Webmobil24LoginService = /** @class */ (function () {
             };
             return _this.http.get(apiURL, { params: paramsData }).toPromise()
                 .then(function (res) {
+                console.log(res);
                 _this.credentials = res;
                 tm.store_wm24_login_datas(res);
                 resolve(res);
             }, function (msg) {
+                console.log(msg);
                 // Error
                 reject(msg);
             });
@@ -1305,7 +1263,7 @@ var Webmobil24LoginService = /** @class */ (function () {
         this.token = cLog;
     };
     var Webmobil24LoginService_1;
-    Webmobil24LoginService.apiRoot = 'https://tools.webmobil24.com/scanfin/auth_dealer.php';
+    Webmobil24LoginService.apiRoot = '/scanfin/auth_dealer.php';
     Webmobil24LoginService = Webmobil24LoginService_1 = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
             providedIn: 'root'
