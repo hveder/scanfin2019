@@ -18,11 +18,11 @@ import {ActivatedRoute, Router} from '@angular/router';
 const STORAGE_KEY = 'my_images';
 
 @Component({
-  selector: 'app-list',
-  templateUrl: 'takevinphotos.page.html',
-  styleUrls: ['takevinphotos.page.scss']
+  selector: 'app-takevehiclephotos',
+  templateUrl: 'takevehiclephotos.page.html',
+  styleUrls: ['takevehiclephotos.page.scss']
 })
-export class TakevinphotosPage implements OnInit {
+export class TakevehiclephotosPage implements OnInit {
 
 
   images = [];

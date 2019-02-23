@@ -6,6 +6,12 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar,StatusBarOriginal } from '@ionic-native/status-bar';
 import { Webmobil24LoginService } from './services/webmobil24-login.service';
+import { Camera } from '@ionic-native/Camera/ngx';
+import { HttpClient } from '@angular/common/http';
+import { File, FileEntry } from '@ionic-native/File/ngx';
+import {  Storage } from '@ionic/storage';
+import { WebView } from '@ionic-native/ionic-webview/ngx';
+import { FilePath } from '@ionic-native/file-path/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -46,7 +52,7 @@ import { HttpConfigInterceptor } from './interceptor/httpconfig.interceptor';
 
   ],
   providers: [
-      Webmobil24LoginService,
+      Webmobil24LoginService,FilePath,FileEntry,Camera,WebView,Storage,File,
       { provide: HTTP_INTERCEPTORS, useClass: HttpConfigInterceptor, multi: true },
       { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
 
