@@ -3,22 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 import { IonicStorageModule } from '@ionic/storage';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { Webmobil24LoginService } from './services/webmobil24-login.service';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
-  MatInputModule,
-      MatPaginatorModule,
-      MatProgressSpinnerModule,
-      MatSortModule,
-      MatTableModule,
-      MatIconModule,
-      MatButtonModule,
-      MatCardModule,
-      MatFormFieldModule } from "@angular/material";
+    MatInputModule,
+    MatProgressSpinnerModule,
+    MatSortModule,
+    MatTableModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatFormFieldModule } from '@angular/material';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -28,32 +27,31 @@ import { HttpConfigInterceptor } from './interceptor/httpconfig.interceptor';
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
-    BrowserModule,
-    IonicModule.forRoot(),
+      BrowserModule,
+      IonicModule.forRoot(),
       IonicStorageModule.forRoot(),
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatInputModule,
-    MatPaginatorModule,
+      AppRoutingModule,
+      BrowserAnimationsModule,
       HttpClientModule,
-    MatProgressSpinnerModule,
-    MatSortModule,
-    MatTableModule,
-    MatIconModule,
-    MatButtonModule,
-    MatCardModule,
-    MatFormFieldModule,
-    DragDropModule,
-    ScrollingModule
+      MatInputModule,
+      MatProgressSpinnerModule,
+      MatSortModule,
+      MatTableModule,
+      MatIconModule,
+      MatButtonModule,
+      MatCardModule,
+      MatFormFieldModule,
+      DragDropModule,
+      ScrollingModule
 
   ],
   providers: [
-    StatusBar,
-    SplashScreen,
-    Webmobil24LoginService,
+      StatusBar,
+      SplashScreen,
+      Webmobil24LoginService,
       { provide: HTTP_INTERCEPTORS, useClass: HttpConfigInterceptor, multi: true },
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
-  ],
-  bootstrap: [AppComponent]
-})
+      { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+      ],
+    bootstrap: [AppComponent]
+    });
 export class AppModule {}
