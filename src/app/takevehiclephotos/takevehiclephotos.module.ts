@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
-
-import { TakevinphotosPage } from './takevinphotos.page';
 import {MatButtonModule, MatCheckboxModule, MatCardModule, MatExpansionModule, MatFormFieldModule, MatInputModule} from '@angular/material';
 import {Webmobil24LoginService} from '../services/webmobil24-login.service';
 import { TakevehiclephotosPage } from './takevehiclephotos.page';
+
+
 
 @NgModule({
   imports: [
@@ -24,7 +24,7 @@ import { TakevehiclephotosPage } from './takevehiclephotos.page';
     RouterModule.forChild([
       {
         path: '',
-        component: TakevinphotosPage
+        component: TakevehiclephotosPage
       }
     ])
   ],

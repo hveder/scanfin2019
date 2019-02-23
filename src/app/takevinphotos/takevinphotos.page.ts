@@ -2,12 +2,12 @@ import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { ActionSheetController, ToastController, Platform, LoadingController } from '@ionic/angular';
-import { Camera, CameraOptions, PictureSourceType } from '@ionic-native/camera';
+import { Camera, CameraOptions, PictureSourceType } from '@ionic-native/camera/ngx';
 import { HttpClient } from '@angular/common/http';
-import { File, FileEntry } from '@ionic-native/file';
+import { File, FileEntry } from '@ionic-native/file/ngx';
 import { IonicStorageModule, Storage } from '@ionic/storage';
-import { WebView } from '@ionic-native/ionic-webview';
-import { FilePath } from '@ionic-native/file-path';
+import { WebView } from '@ionic-native/ionic-webview/ngx';
+import { FilePath } from '@ionic-native/file-path/ngx';
 import { finalize } from 'rxjs/operators';
 import { AwsOcRServiceService } from '../services/aws-oc-rservice.service';
 import { Form } from '@angular/forms';
