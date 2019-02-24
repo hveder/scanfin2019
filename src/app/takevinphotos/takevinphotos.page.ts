@@ -54,6 +54,7 @@ this.camera.getPicture(options).then((imageData) => {
  // If it's base64 (DATA_URL):
  const base64Image = imageData;
     that.myValue = imageData;
+    console.log(imageData);
   that.awsOcRServiceService.callfnDetectVin(base64Image).then((res) => {
     console.log('Data');
   }, (msg => {
