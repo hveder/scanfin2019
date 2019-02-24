@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpInterceptor , HttpParams, HttpHeaders } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http/ngx';
 import {WebservicecallsTokenanager} from '../webservicecalls/webservicecalls.tokenmanager';
 
