@@ -51,12 +51,7 @@ export class Webmobil24LoginService {
                 ) .then(data => {
                     console.log(data.data);
                     const obj = JSON.parse(data.data);
-                    console.log(obj);
-                    console.log(obj);
-                     Object.assign( this.credentials ,  obj );
-                    console.log(this.credentials);
-                   //Object.assign( this.credentials ,  data.data );
-                //tm.store_wm24_login_datas( this.credentials);
+                 tm.store_wm24_login_datas( obj );
                 //console.log(this.credentials);
             }).catch(error => {
                 console.log(error);
