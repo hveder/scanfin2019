@@ -38,7 +38,6 @@ export class HttpConfigInterceptor implements HttpInterceptor {
                         .set('Access-Control-Allow-Origin', '*' )
                         .set('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, x-auth,Content-Type, Content-Range, Content-Disposition, Content-Description' )
                         .set('Access-Control-Allow-Methods', 'POST, GET, PUT, OPTIONS, DELETE, PATCH' )
-                        .set('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, x-auth' )
                         .set('x-api-key', 'EvuHxr7P9F1AR9kAKBrow1p44Gpab65p2jXgeqIK' ),
                 params : request.params});
         }
