@@ -8,7 +8,7 @@ import { StatusBar,StatusBarOriginal } from '@ionic-native/status-bar';
 import { Webmobil24LoginService } from './services/webmobil24-login.service';
 import { HttpBackend, HttpXhrBackend } from '@angular/common/http';
 import { NativeHttpModule, NativeHttpBackend, NativeHttpFallback } from 'ionic-native-http-connection-backend'
-import { Platform } from 'ionic-angular';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -52,10 +52,8 @@ import { HttpConfigInterceptor } from './interceptor/httpconfig.interceptor';
       Webmobil24LoginService,
       { provide: HTTP_INTERCEPTORS, useClass: HttpConfigInterceptor, multi: true },
       { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-      { provide: HttpBackend, useClass: NativeHttpFallback, deps: [ Platform, NativeHttpBackend, HttpXhrBackend]},
 
-
-  ],
+      ],
     bootstrap: [AppComponent]
     })
 export class AppModule {}
