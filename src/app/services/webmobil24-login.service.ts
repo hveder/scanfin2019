@@ -61,6 +61,7 @@ export class Webmobil24LoginService {
 
                 });
     }
+
     );
     return promise.then((res) => {
             return this.credentials;

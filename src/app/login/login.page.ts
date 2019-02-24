@@ -42,6 +42,7 @@ export class LoginPage  implements OnInit {
     console.log(credentials);
      await this.wm24Login.callfnWm24Login(credentials.username, credentials.password).then(
          (res)=>{
+           console.log(res);
            this.redirect();
          },
          (msg)=>{
@@ -56,9 +57,9 @@ export class LoginPage  implements OnInit {
   redirect() {
     const tm = new WebservicecallsTokenanager();
     const promise = tm.retrieve_wm24_login_datas().then((res) => {
-      this.router.navigate([ 'takevinphotos' ]).then(() => {
-            return true;},
-          (msg) => { console.log(msg); } );
+      console.log(res);
+
+      this.router.navigate([ 'takevinphotos' ]);
       return null;
 
     }, (msg) => {
