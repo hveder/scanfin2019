@@ -165,8 +165,8 @@ export class RmtWebServiceService {
                             this.processFetchLists(res);
                             resolve();
                             // this.oLists = res;
-                        },
-                        msg => {
+                        }).catch(
+                    (msg) => {
                             reject(msg);
 
                         }
@@ -220,8 +220,8 @@ export class RmtWebServiceService {
                             this.processFetchLists(res);
                             resolve();
                             // this.oLists = res;
-                        },
-                        msg => {
+                        }).catch(
+                    (msg) => {
                             reject(msg);
 
                         }
@@ -259,8 +259,8 @@ export class RmtWebServiceService {
                             this.processFetchQuery(res);
                             resolve();
                             // this.oLists = res;
-                        },
-                        msg => {
+                        }).catch(
+                    (msg) => {
                             reject(msg);
 
                         }
@@ -298,8 +298,8 @@ export class RmtWebServiceService {
                             this.processFetchRanges(res);
                             resolve();
                             // this.oLists = res;
-                        },
-                        msg => {
+                        }).catch(
+                    (msg) => {
                             reject(msg);
 
                         }

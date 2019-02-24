@@ -53,7 +53,8 @@ import {promise} from 'selenium-webdriver';
 
                 this.setVins(res.vins);
                 resolve();
-            },(msg: any) => {
+            }).catch(
+            (msg)=> {
           console.log(msg);
           reject();
         });

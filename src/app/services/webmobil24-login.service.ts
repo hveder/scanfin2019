@@ -31,21 +31,22 @@ export class Webmobil24LoginService {
         'username' : username,
         'password' : password
       } ;
-
-       return this.http.get(apiURL, { params:  paramsData },{} )
-          .then(
+            console.log(paramsData);
+            console.log( this.http.get(apiURL, { params:  paramsData },{} ));
+       this.http.get(apiURL, { params:  paramsData },{} );
+       /*   .then(
 
               (res: Webmobil24Credentials) => {
                 this.credentials = res;
                 tm.store_wm24_login_datas(res);
                 resolve(res);
-              },
-              msg => {
+              }).catch(
+           (msg) => {
                   this.token = msg;
                 // Error
                               reject(msg);
               }
-          );
+          );*/
     }
     );
     return promise.then((res) => {
@@ -60,6 +61,7 @@ export class Webmobil24LoginService {
   }
 
   async  callfnWm24Login(username: string ,  password: string ) {
+      console.log(username,password);
        await this.fnWm24Login( username ,  password );
       return this.credentials;
   }

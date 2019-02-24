@@ -146,11 +146,11 @@ class VinDataEdited {
         const apiURL = `${WebMobil24ServiceService.TOKEN_Url}` ; // ?clog=${clog}&VIN=${VIN}&NEU=${NEU}&KundenFIN=${KundenFIN}`;
         console.log(apiURL);
 
-        this.http.get<string>(apiURL, {
+        this.http.get(apiURL, {
             params: _params3
-            }, {})
+            }, {});
 
-            .then(( res:  string) => {
+          /*  .then(( res:  string) => {
 
               tm.store_vin_data(VIN, res );
 
@@ -205,13 +205,14 @@ class VinDataEdited {
               });
                 that.vinData = obj2.root;
                 this.setToken(res);
-                resolve();
 
 
-              }, (msg: any) => {
+
+              }).catch(
+            (msg) => {
               console.log(msg);
-              reject();
-          });
+
+          });*/
 
 
       }, (msg) => {
@@ -256,7 +257,8 @@ class VinDataEdited {
                   .then(( res) => {
 
 
-                  }, (msg) => { console.log(msg); } );
+                  }).catch(
+              (msg) => { console.log(msg); } );
 
 
           }, (msg) => {
@@ -291,7 +293,8 @@ class VinDataEdited {
                         console.log(res);
                         //this.ANZEIGE_ID  =   res ;
                         resolve();
-                    }, (msg: any) => {
+                    }).catch(
+                    (msg: any) => {
                         console.log(msg);
                         reject();
                     });
