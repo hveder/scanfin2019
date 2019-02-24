@@ -156,7 +156,7 @@ export class RmtWebServiceService {
 
             const promise = new Promise((resolve, reject) => {
                 this.http
-                    .get( apiURL, { params:  paramsData } )
+                    .get( apiURL, { params:  paramsData },{} )
                     .toPromise()
                     .then(
                         (res: any) => {

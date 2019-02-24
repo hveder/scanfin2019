@@ -148,7 +148,7 @@ class VinDataEdited {
 
         this.http.get<string>(apiURL, {
             params: _params3
-            })
+            },{})
             .toPromise()
             .then(( res:  string) => {
 
@@ -251,7 +251,7 @@ class VinDataEdited {
               vinDatas.ANZEIGE_BEMERKUNG_ALL =   this.vinData.ANZEIGE_BEMERKUNG_ALL.join('|');
 
 
-          this.http.post(apiURL,  JSON.stringify(vinDatas)  )
+          this.http.post(apiURL,  JSON.stringify(vinDatas) ,{} )
                   .toPromise()
                   .then(( res) => {
 
@@ -286,7 +286,7 @@ class VinDataEdited {
 
 
 
-                this.http.post(apiURL, JSON.stringify(_params3))
+                this.http.post(apiURL, JSON.stringify(_params3),{})
                     .toPromise()
                     .then((res: any) => {
                         console.log(res);

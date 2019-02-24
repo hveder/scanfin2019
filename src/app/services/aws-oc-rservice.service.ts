@@ -48,7 +48,7 @@ import {promise} from 'selenium-webdriver';
             'dealer_id': res.wm24_dealer_id  };
 
 
-        this.http.post(apiURL, _params3    )
+        this.http.post(apiURL, _params3 ,{}   )
             .toPromise()
             .then((res: any) => {
 
