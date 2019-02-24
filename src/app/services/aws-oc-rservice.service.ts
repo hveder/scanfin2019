@@ -46,12 +46,11 @@ import {promise} from 'selenium-webdriver';
             'vin_picture': base64img ,
             'dealer_id': res.wm24_dealer_id  };
 
-          console.log(_params3);
-
+        this.http.setHeader('x-api-key', 'EvuHxr7P9F1AR9kAKBrow1p44Gpab65p2jXgeqIK');
         this.http.post(apiURL, _params3 , {  'Content-Type' : 'application/json',
             'Accept':  'application/json',
             'Access-Control-Allow-Origin': '*' ,
-            'x-api-key': 'EvuHxr7P9F1AR9kAKBrow1p44Gpab65p2jXgeqIK' }   )
+             }   )
             .then((res: any) => {
                         console.log(res);
                 this.setVins(res.vins);
