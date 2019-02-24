@@ -28,28 +28,37 @@ export class Webmobil24LoginService {
       const tm = new WebservicecallsTokenanager();
 
       const paramsData = {
-        'username' : username,
+        'username=' : username,
         'password' : password
       } ;
             let params = new HttpParams();
             params = params.append('username', username);
             params = params.append('password', password);
 
-            console.log( this.http.get(apiURL, JSON.stringify(paramsData),{} ));
-            this.http.get(apiURL, {} ,{} ) .then(data => {
+
+
+
+            console.log( this.http.get(apiURL, params , {'Content-Type' : 'application/json',
+                'Accept': 'text/html, application/xhtml+xml, application/json, application/xml;q=0.9, */*;q=0.8',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, x-auth,Content-Type, Content-Range, Content-Disposition, Content-Description',
+                'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS, DELETE, PATCH'} ));
+            this.http.get(apiURL, { params:  paramsData } , {} ) .then(data => {
 
                 console.log(data.status);
                 console.log(data.data); // data received by server
                 console.log(data.headers);
 
             })
+
+
                 .catch(error => {
 
                     console.log(error.status);
                     console.log(error.error); // error message as string
                     console.log(error.headers);
 
-                });;
+                });
        /*   .then(
 
               (res: Webmobil24Credentials) => {
@@ -71,13 +80,13 @@ export class Webmobil24LoginService {
             return this.credentials;
 
     }
-       ).finally(()=>{
+       ).finally(() => {
            return this.credentials;
     });
   }
 
   async  callfnWm24Login(username: string ,  password: string ) {
-      console.log(username,password);
+      console.log(username, password);
        await this.fnWm24Login( username ,  password );
       return this.credentials;
   }
