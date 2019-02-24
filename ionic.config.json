@@ -6,23 +6,23 @@
   "type": "angular",
   "proxies": [
     {
-      "path": "/vinpd/dev/detect",
+      "path": "*/vinpd/dev/detect",
       "proxyUrl": "https://api.ico-international.de/vinpd/dev/detect"
     },
     {
-      "path": "/spin360/auth_dealer.php",
+      "path": "*/spin360/auth_dealer.php",
       "proxyUrl": "https://tools.webmobil24.com/spin360/auth_dealer.php"
     },
     {
-      "path": "/scanfin/auth_dealer.php",
+      "path": "*/scanfin/auth_dealer.php",
       "proxyUrl": "https://tools.webmobil24.com/spin360/auth_dealer.php"
     },
     {
-      "path": "/scanfin/create_ad.php",
+      "path": "*/scanfin/create_ad.php",
       "proxyUrl": "https://tools.webmobil24.com/scanfin/create_ad.php"
     },
     {
-      "path": "/scanfin/bilder_upload.php",
+      "path": "*/scanfin/bilder_upload.php",
       "proxyUrl": "https://tools.webmobil24.com/scanfin/bilder_upload.php"
     }
   ],
