@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { WebservicecallsTokenanager } from '../webservicecalls/webservicecalls.tokenmanager';
 import { HttpClient, HttpParams } from '@angular/common/http';
+import { HTTP } from '@ionic-native/http/ngx';
 import { Observable } from 'rxjs/Observable';
 
 class WebServiceCredentials {
@@ -84,7 +85,7 @@ class WebServiceQuery {
   providedIn: 'root'
 })
 export class RmtWebServiceService {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HTTP) { }
 
 
 

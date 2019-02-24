@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {HttpClient, HttpInterceptor , HttpParams, HttpHeaders } from '@angular/common/http';
 import {WebservicecallsTokenanager} from '../webservicecalls/webservicecalls.tokenmanager';
 import { NgxXml2jsonService } from 'ngx-xml2json';
-
+import { HTTP } from '@ionic-native/http/ngx';
 
 class CANZEIGE_ID {
   constructor(public ANZEIGE_ID: string ) {}
@@ -108,7 +108,7 @@ class VinDataEdited {
     }
 
 
-  constructor(private http: HttpClient, private ngxXml2jsonService: NgxXml2jsonService) {
+  constructor(private http: HTTP, private ngxXml2jsonService: NgxXml2jsonService) {
   }
 
   static readonly TOKEN_Url = '/web/de/secure/start/index.php';

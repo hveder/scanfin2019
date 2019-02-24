@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpInterceptor , HttpParams, HttpHeaders } from '@angular/common/http';
+import { HTTP } from '@ionic-native/http/ngx';
 import {WebservicecallsTokenanager} from '../webservicecalls/webservicecalls.tokenmanager';
 
 class VinPictureRequest {
@@ -16,7 +17,7 @@ import {promise} from 'selenium-webdriver';
   providedIn: 'root'
 })export class AwsOcRServiceService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HTTP) { }
 
   static readonly  AWS_Url = '/vinpd/dev/detect';
 

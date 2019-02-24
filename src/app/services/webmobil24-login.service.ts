@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { WebservicecallsTokenanager } from '../webservicecalls/webservicecalls.tokenmanager';
 import { HttpClient, HttpParams } from '@angular/common/http';
-
+import { HTTP } from '@ionic-native/http/ngx';
 
 
 class Webmobil24Credentials {
@@ -14,7 +14,7 @@ class Webmobil24Credentials {
   providedIn: 'root'
 })
 export class Webmobil24LoginService {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HTTP) { }
   static readonly apiRoot = '/scanfin/auth_dealer.php';
 
   token: any ;
