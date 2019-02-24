@@ -32,7 +32,7 @@ export class Webmobil24LoginService {
         'password' : password
       } ;
 
-       return this.http.get(apiURL, { params:  paramsData },{} ).toPromise()
+       return this.http.get(apiURL, { params:  paramsData },{} ) 
           .then(
 
               (res: Webmobil24Credentials) => {

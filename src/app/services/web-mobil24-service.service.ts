@@ -148,8 +148,8 @@ class VinDataEdited {
 
         this.http.get<string>(apiURL, {
             params: _params3
-            },{})
-            .toPromise()
+            }, {})
+
             .then(( res:  string) => {
 
               tm.store_vin_data(VIN, res );
@@ -252,7 +252,7 @@ class VinDataEdited {
 
 
           this.http.post(apiURL,  JSON.stringify(vinDatas) ,{} )
-                  .toPromise()
+
                   .then(( res) => {
 
 
@@ -287,8 +287,7 @@ class VinDataEdited {
 
 
                 this.http.post(apiURL, JSON.stringify(_params3),{})
-                    .toPromise()
-                    .then((res: any) => {
+                     .then((res: any) => {
                         console.log(res);
                         //this.ANZEIGE_ID  =   res ;
                         resolve();

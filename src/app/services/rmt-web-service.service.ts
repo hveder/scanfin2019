@@ -113,7 +113,7 @@ export class RmtWebServiceService {
       const apiURL = `${RmtWebServiceService.apiRoot}${RmtWebServiceService.loginQry}?access-token=${RmtWebServiceService.apiToken}`;
       const tm = new WebservicecallsTokenanager();
 
-      this.http.get(apiURL).toPromise()
+      this.http.get(apiURL,{},{})
           .then(
 
               (res: WebServiceCredentials) => {
@@ -157,7 +157,7 @@ export class RmtWebServiceService {
             const promise = new Promise((resolve, reject) => {
                 this.http
                     .get( apiURL, { params:  paramsData },{} )
-                    .toPromise()
+
                     .then(
                         (res: any) => {
                             console.log(res);
@@ -211,8 +211,8 @@ export class RmtWebServiceService {
 
         const promise = new Promise((resolve, reject) => {
                 this.http
-                    .get( apiURL, { params:  paramsData } )
-                    .toPromise()
+                    .get( apiURL, { params:  paramsData } ,{})
+
                     .then(
                         (res: any) => {
                             console.log(res);
@@ -250,8 +250,8 @@ export class RmtWebServiceService {
 
             const promise = new Promise((resolve, reject) => {
                 this.http
-                    .get( apiURL, { params:  paramsData } )
-                    .toPromise()
+                    .get( apiURL, { params:  paramsData },{} )
+
                     .then(
                         (res: any) => {
                             console.log(res);
@@ -289,8 +289,8 @@ export class RmtWebServiceService {
 
             const promise = new Promise((resolve, reject) => {
                 this.http
-                    .get( apiURL, { params:  paramsData } )
-                    .toPromise()
+                    .get( apiURL, { params:  paramsData },{} )
+
                     .then(
                         (res: any) => {
                             console.log(res);
