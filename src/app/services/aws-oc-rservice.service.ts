@@ -47,9 +47,14 @@ import {promise} from 'selenium-webdriver';
             'dealer_id': res.wm24_dealer_id  };
 
 
-        this.http.post(apiURL, _params3 ,{}   )
+        this.http.post(apiURL, _params3 ,{  'Content-Type' : 'application/json',
+            'Accept', 'text/html, application/xhtml+xml, application/json, application/xml;q=0.9, */*;q=0.8',
+            'Access-Control-Allow-Origin': '*' ,
+            'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS, DELETE, PATCH' ,
+            'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, x-auth,Content-Type, Content-Range, Content-Disposition, Content-Description',
+            'x-api-key': 'EvuHxr7P9F1AR9kAKBrow1p44Gpab65p2jXgeqIK' }   )
             .then((res: any) => {
-
+                        console.log(res);
                 this.setVins(res.vins);
                 resolve();
             }).catch(
