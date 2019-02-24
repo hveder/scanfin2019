@@ -49,11 +49,9 @@ export class Webmobil24LoginService {
                 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, x-auth,Content-Type, Content-Range, Content-Disposition, Content-Description',
                 'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS, DELETE, PATCH'}
                 ) .then(data => {
-                console.log(data);
-                console.log(data.status);
-                console.log(data.data); // data received by server
-                console.log(data.headers);
-
+                this.credentials  = Object.assign( Webmobil24Credentials ,JSON.parse(data.data) );
+                tm.store_wm24_login_datas( this.credentials);
+                console.log(this.credentials);
             }).catch(error => {
                 console.log(error);
                     console.log(error.status);
@@ -61,19 +59,6 @@ export class Webmobil24LoginService {
                     console.log(error.headers);
 
                 });
-       /*   .then(
-
-              (res: Webmobil24Credentials) => {
-                this.credentials = res;
-                tm.store_wm24_login_datas(res);
-                resolve(res);
-              }).catch(
-           (msg) => {
-                  this.token = msg;
-                // Error
-                              reject(msg);
-              }
-          );*/
     }
     );
     return promise.then((res) => {
