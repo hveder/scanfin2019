@@ -111,9 +111,9 @@ class VinDataEdited {
   constructor(private http: HttpClient, private ngxXml2jsonService: NgxXml2jsonService) {
   }
 
-  static readonly TOKEN_Url = 'https://www.webmobil24.com//web/de/secure/start/index.php';
-  static readonly CREATE_AD = 'https://tools.webmobil24.com/scanfin/create_ad.php' ;
-  static readonly IMG_UPLOAD = 'https://tools.webmobil24.com/scanfin/bilder_upload.php' ;
+  static readonly TOKEN_Url = '/web/de/secure/start/index.php';
+  static readonly CREATE_AD = '/scanfin/create_ad.php' ;
+  static readonly IMG_UPLOAD = '/scanfin/bilder_upload.php' ;
 
   token: any[];
   private _vinData: any;

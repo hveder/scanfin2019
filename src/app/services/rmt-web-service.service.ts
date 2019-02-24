@@ -88,7 +88,7 @@ export class RmtWebServiceService {
 
 
 
-  static readonly apiRoot = 'https://api.romoto.de/v_romoto_app/webservice/';
+  static readonly apiRoot = '/v_romoto_app/webservice/';
   static readonly apiToken = 'qOINKtbV0R67kVUCax8rMTBbdimm8-bC';
 
   static readonly loginQry = 'login';
