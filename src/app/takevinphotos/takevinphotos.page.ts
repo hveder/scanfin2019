@@ -1,9 +1,7 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-
 import { BrowserModule } from '@angular/platform-browser';
 import { ActionSheetController, ToastController, Platform, LoadingController } from '@ionic/angular';
 import { Camera, CameraOptions, PictureSourceType } from '@ionic-native/camera/ngx';
-import { HttpClient } from '@angular/common/http';
 import { File, FileEntry } from '@ionic-native/file/ngx';
 import { IonicStorageModule, Storage } from '@ionic/storage';
 import { WebView } from '@ionic-native/ionic-webview/ngx';
@@ -11,7 +9,6 @@ import { FilePath } from '@ionic-native/file-path/ngx';
 import { finalize } from 'rxjs/operators';
 import { AwsOcRServiceService } from '../services/aws-oc-rservice.service';
 import { Form } from '@angular/forms';
-import { WebservicecallsTokenanager } from '../webservicecalls/webservicecalls.tokenmanager';
 import {ActivatedRoute, Router} from '@angular/router';
 
 
@@ -28,7 +25,7 @@ export class TakevinphotosPage implements OnInit {
    myValue:string = '';
   images = [];
 
-  constructor(private camera: Camera, private file: File, private http: HttpClient, private webview: WebView,
+  constructor(private camera: Camera, private file: File, private webview: WebView,
               private actionSheetController: ActionSheetController, private toastController: ToastController,
               private storage: Storage, private plt: Platform, private loadingController: LoadingController,
               private ref: ChangeDetectorRef, private filePath: FilePath,
@@ -53,8 +50,7 @@ this.camera.getPicture(options).then((imageData) => {
  // imageData is either a base64 encoded string or a file URI
  // If it's base64 (DATA_URL):
  const base64Image = imageData;
-    that.myValue = imageData;
-    console.log(imageData);
+    that.myValue = myValue;
   that.awsOcRServiceService.callfnDetectVin(base64Image).then((res) => {
     console.log('Data');
   }, (msg => {

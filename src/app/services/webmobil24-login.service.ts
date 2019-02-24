@@ -14,7 +14,7 @@ class Webmobil24Credentials {
 })
 export class Webmobil24LoginService {
   constructor(private http: HTTP) { }
-  static readonly apiRoot = '/scanfin/auth_dealer.php';
+  static readonly apiRoot = 'https://tools.webmobil24.com/scanfin/auth_dealer.php';
 
   token: any ;
   credentials: Webmobil24Credentials;
