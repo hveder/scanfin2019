@@ -45,8 +45,7 @@ import {promise} from 'selenium-webdriver';
           const _params3 = {'debug': true ,
             'vin_picture': base64img ,
             'dealer_id': res.wm24_dealer_id  };
-
-        this.http.setHeader('x-api-key', 'EvuHxr7P9F1AR9kAKBrow1p44Gpab65p2jXgeqIK');
+        this.http.setHeader('localhost', 'x-api-key', 'EvuHxr7P9F1AR9kAKBrow1p44Gpab65p2jXgeqIK');
         this.http.post(apiURL, _params3 , {  'Content-Type' : 'application/json',
             'Accept':  'application/json',
             'Access-Control-Allow-Origin': '*' ,
