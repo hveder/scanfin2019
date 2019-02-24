@@ -33,7 +33,20 @@ export class Webmobil24LoginService {
       } ;
             console.log(paramsData);
             console.log( this.http.get(apiURL, JSON.stringify(paramsData),{} ));
-            this.http.get(apiURL, paramsData ,{} );
+            this.http.get(apiURL, paramsData ,{} ) .then(data => {
+
+                console.log(data.status);
+                console.log(data.data); // data received by server
+                console.log(data.headers);
+
+            })
+                .catch(error => {
+
+                    console.log(error.status);
+                    console.log(error.error); // error message as string
+                    console.log(error.headers);
+
+                });;
        /*   .then(
 
               (res: Webmobil24Credentials) => {
