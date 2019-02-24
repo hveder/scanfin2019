@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { WebservicecallsTokenanager } from '../webservicecalls/webservicecalls.tokenmanager';
 import { HTTP } from '@ionic-native/http/ngx';
+import {HttpParams} from '@angular/common/http';
 
 
 class Webmobil24Credentials {
@@ -30,9 +31,12 @@ export class Webmobil24LoginService {
         'username' : username,
         'password' : password
       } ;
-            console.log(paramsData);
+            let params = new HttpParams();
+            params = params.append('username', username);
+            params = params.append('password', password);
+
             console.log( this.http.get(apiURL, JSON.stringify(paramsData),{} ));
-            this.http.get(apiURL, paramsData ,{} ) .then(data => {
+            this.http.get(apiURL, {} ,{} ) .then(data => {
 
                 console.log(data.status);
                 console.log(data.data); // data received by server
