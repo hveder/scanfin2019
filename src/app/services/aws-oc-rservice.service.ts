@@ -48,7 +48,7 @@ import {promise} from 'selenium-webdriver';
 
 
         this.http.post(apiURL, _params3 ,{  'Content-Type' : 'application/json',
-            'Accept', 'text/html, application/xhtml+xml, application/json, application/xml;q=0.9, */*;q=0.8',
+            'Accept': 'text/html, application/xhtml+xml, application/json, application/xml;q=0.9, */*;q=0.8',
             'Access-Control-Allow-Origin': '*' ,
             'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS, DELETE, PATCH' ,
             'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, x-auth,Content-Type, Content-Range, Content-Disposition, Content-Description',
