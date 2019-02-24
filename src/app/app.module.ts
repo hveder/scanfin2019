@@ -6,7 +6,6 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar,StatusBarOriginal } from '@ionic-native/status-bar';
 import { Webmobil24LoginService } from './services/webmobil24-login.service';
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
