@@ -113,7 +113,7 @@ export class RmtWebServiceService {
       const apiURL = `${RmtWebServiceService.apiRoot}${RmtWebServiceService.loginQry}?access-token=${RmtWebServiceService.apiToken}`;
       const tm = new WebservicecallsTokenanager();
 
-      this.http.get(apiURL,{},{})
+      /*this.http.get(apiURL,{},{})
           .then(
 
               (res: WebServiceCredentials) => {
@@ -126,7 +126,7 @@ export class RmtWebServiceService {
                 console.log('datas');
                 reject(msg);
               }
-          );
+          )*/;
     });
     return promise;
 

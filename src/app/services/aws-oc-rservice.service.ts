@@ -49,7 +49,6 @@ import {promise} from 'selenium-webdriver';
 
 
         this.http.post(apiURL, _params3 ,{}   )
-            .toPromise()
             .then((res: any) => {
 
                 this.setVins(res.vins);
