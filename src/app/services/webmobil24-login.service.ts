@@ -38,10 +38,10 @@ export class Webmobil24LoginService {
 
 
             this.http.get(apiURL,
-                { params:  {
+                 {
                     'username=' : username,
                     'password' : password
-                    }
+                
                 } , {
                 'Content-Type' : 'application/json',
                 'Accept': 'text/html, application/xhtml+xml, application/json, application/xml;q=0.9, */*;q=0.8',
