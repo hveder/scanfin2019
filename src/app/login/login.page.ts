@@ -47,21 +47,9 @@ export class LoginPage  implements OnInit {
 
   redirect() {
     const tm = new WebservicecallsTokenanager();
-    const promise = tm.retrieve_wm24_login_datas().then((res) => {
-      console.log(res);
-
-      this.router.navigate([ 'takevinphotos' ]);
-      return null;
-
-    }, (msg) => {
-
-      return false;
-
-    });
-
-    // const data = new Promise((resolve, reject) => {
-    // this.router.navigateByUrl('subpages/subpage1');
-    // });
+    console.tm();
+    const promise = tm.retrieve_wm24_login_datas();
+    this.router.navigate([ 'takevinphotos' ]);
   }
 
 }
