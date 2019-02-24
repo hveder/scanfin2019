@@ -39,6 +39,7 @@ export class LoginPage  implements OnInit {
 
 
   async sendCredentials(credentials) {
+    this.redirect();
     console.log(credentials);
      await this.wm24Login.callfnWm24Login(credentials.username, credentials.password);
     this.redirect();
@@ -47,8 +48,9 @@ export class LoginPage  implements OnInit {
 
   redirect() {
     const tm = new WebservicecallsTokenanager();
-    console.log(tm);
+
     const loginDatas = tm.retrieve_wm24_login_datas();
+    console.log(loginDatas);
     if ( typeof loginDatas !== 'string' )
       this.router.navigate([ 'takevinphotos' ]);
   }
