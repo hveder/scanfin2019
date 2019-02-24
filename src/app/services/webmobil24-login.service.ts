@@ -49,11 +49,15 @@ export class Webmobil24LoginService {
                 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, x-auth,Content-Type, Content-Range, Content-Disposition, Content-Description',
                 'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS, DELETE, PATCH'}
                 ) .then(data => {
-                    console.log(data);
+                    console.log(data.data);
+                    const obj = JSON.parse(data.data);
+                    console.log(obj);
+                    console.log(obj);
+                     Object.assign( this.credentials ,  obj );
                     console.log(this.credentials);
-                   Object.assign( this.credentials ,  data.data );
-                 tm.store_wm24_login_datas( this.credentials);
-                console.log(this.credentials);
+                   //Object.assign( this.credentials ,  data.data );
+                //tm.store_wm24_login_datas( this.credentials);
+                //console.log(this.credentials);
             }).catch(error => {
                 console.log(error);
                     console.log(error.status);
