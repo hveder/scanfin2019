@@ -40,16 +40,7 @@ export class LoginPage  implements OnInit {
 
   async sendCredentials(credentials) {
     console.log(credentials);
-     await this.wm24Login.callfnWm24Login(credentials.username, credentials.password).then(
-         (res)=>{
-           console.log(res);
-           this.redirect();
-         },
-         (msg)=>{
-           this.msg = this.wm24Login.token;
-         }
-
-     );
+     await this.wm24Login.callfnWm24Login(credentials.username, credentials.password);
     this.redirect();
 
   }
