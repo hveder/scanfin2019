@@ -18,7 +18,7 @@ import {promise} from 'selenium-webdriver';
 
   constructor(private http: HTTP) { }
 
-  static readonly  AWS_Url = '/vinpd/dev/detect';
+  static readonly  AWS_Url = 'https://api.ico-international.de/vinpd/dev/detect';
 
   vins: any[];
 
