@@ -37,22 +37,24 @@ export class Webmobil24LoginService {
 
 
 
-
-            console.log( this.http.get(apiURL, params , {'Content-Type' : 'application/json',
+            this.http.get(apiURL,
+                { params:  {
+                    'username=' : username,
+                    'password' : password
+                    }
+                } , {
+                'Content-Type' : 'application/json',
                 'Accept': 'text/html, application/xhtml+xml, application/json, application/xml;q=0.9, */*;q=0.8',
                 'Access-Control-Allow-Origin': '*',
                 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, x-auth,Content-Type, Content-Range, Content-Disposition, Content-Description',
-                'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS, DELETE, PATCH'} ));
-            this.http.get(apiURL, { params:  paramsData } , {} ) .then(data => {
+                'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS, DELETE, PATCH'}
+                ) .then(data => {
 
                 console.log(data.status);
                 console.log(data.data); // data received by server
                 console.log(data.headers);
 
-            })
-
-
-                .catch(error => {
+            }).catch(error => {
 
                     console.log(error.status);
                     console.log(error.error); // error message as string
